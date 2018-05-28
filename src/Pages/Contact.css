@@ -1,0 +1,12 @@
+.contactpage-wrapper{
+	margin-top:50px;
+	width:40%;
+}
+.form-head{
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+.submit-btn{
+	font-size: 20px !important;
+	background-color: #000 !important
+}
