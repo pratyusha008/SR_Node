@@ -1,0 +1,12 @@
+.header {
+  background-color: #000;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.header img{
+  height:300px;
+  width:560px;
+  float: left;
+}

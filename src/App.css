@@ -1,0 +1,43 @@
+.App{
+	font-family: "Roboto", sans-serif;
+}
+.content{
+  height:800px;
+}
+.menu-bar{
+	background:#000;
+	color:#fff;
+	font-size: 24px;
+}
+ul{
+	margin: 0px;
+    padding: 20px 0px;
+    text-align: right;
+}
+ul li{
+	display: inline-block;
+	padding:0px 20px;
+}
+ul li a{
+	color:#fff;
+	text-decoration: none
+}
+ul li a:hover{
+	color:#fff;
+}
+
+.content-wrapper{
+	width:75%;
+	margin:0 auto;
+	font-size: 22px;
+	margin: 50px auto;	
+}
+
+h2.main-head{
+	font-size: 40px;
+	font-family: "Lobster Two", cursive ;
+}
+h3.medium-head{
+	font-size: 34px;
+	font-family: "Lobster Two", cursive ;
+}
