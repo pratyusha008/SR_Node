@@ -1,12 +1,60 @@
-.contactpage-wrapper{
-	margin-top:50px;
-	width:40%;
-}
-.form-head{
+/*.form-head{
 	font-size: 34px;
 	margin-bottom: 20px;
+}**/
+
+/*Reach Us Component**/
+.reachus-wrapper{
+    width: 100%;
+    margin-top: 10%;
+}
+
+/*Contact Page Component**/
+.contactpage-wrapper{
+	margin-top:50px;
+	width:100%;
+	box-shadow: 10px 2px 20px #000;
+    background: #eee;
+    padding:100px;
+}
+.icons{
+	display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.icons img{
+	width:80px;
+	height: 80px;
+	margin-right: 50px;
+}
+.icons.callus{
+	margin-bottom: 50px;
+}
+.icons.emailus img{
+	width:90px;
+	height:100px;
+} 
+.icons .icons-text{
+	font-size: 30px;
+}
+.icons.emailus .icons-text{
+	line-height: 90px;
 }
 .submit-btn{
 	font-size: 20px !important;
 	background-color: #000 !important
+}
+
+
+
+
+@media (min-width: 1200px){
+	.reachus-wrapper{
+		width: 40%;
+		margin-top: 20%;
+		height: 400px;
+	}
+	.contactpage-wrapper{
+		width:50%;
+	}
 }
